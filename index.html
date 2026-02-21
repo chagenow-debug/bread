@@ -73,10 +73,15 @@
     font-weight: 300;
     animation: fadeDown 0.7s ease 0.2s both;
   }
-  /* Bread SVG illustration */
+  /* Baker caricature */
   .bread-hero {
     margin: 30px auto 10px;
+    display: block;
+    width: 260px;
+    height: auto;
+    border-radius: 16px;
     animation: floatBread 4s ease-in-out infinite, fadeDown 0.8s ease 0.3s both;
+    filter: drop-shadow(0 8px 24px rgba(139,69,19,0.25));
   }
   /* TIMELINE */
   .timeline {
@@ -370,37 +375,8 @@
     <div class="header-badge">NY Times Classic · Mark Bittman</div>
     <h1>Speedy<br>No-Knead Bread</h1>
     <p class="subtitle">Artisan loaf in 4½ hours · No mixer · No Dutch oven</p>
-    <!-- Bread SVG -->
-    <svg class="bread-hero" width="220" height="140" viewBox="0 0 220 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Steam -->
-      <g class="steam-path" transform="translate(75, 0)">
-        <path d="M10 40 Q14 30 10 20 Q6 10 10 0" stroke="#D4A96A" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
-      </g>
-      <g class="steam-path" transform="translate(105, 0)">
-        <path d="M10 40 Q14 30 10 20 Q6 10 10 0" stroke="#D4A96A" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
-      </g>
-      <g class="steam-path" transform="translate(135, 0)">
-        <path d="M10 40 Q14 30 10 20 Q6 10 10 0" stroke="#D4A96A" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
-      </g>
-      <!-- Bread body -->
-      <ellipse cx="110" cy="110" rx="95" ry="18" fill="#7A3B0E" opacity="0.3"/>
-      <path d="M20 110 Q15 70 40 60 Q70 45 110 48 Q150 45 180 60 Q205 70 200 110 Z" fill="#C0622B"/>
-      <path d="M20 110 Q15 70 40 60 Q70 45 110 48 Q150 45 180 60 Q205 70 200 110 Z" fill="url(#breadGrad)"/>
-      <!-- Crust top -->
-      <path d="M40 60 Q70 42 110 45 Q150 42 180 60" stroke="#8B3A0E" stroke-width="2" fill="none"/>
-      <!-- Score lines -->
-      <path d="M75 52 Q110 48 145 52" stroke="#8B3A0E" stroke-width="1.5" fill="none" opacity="0.8"/>
-      <!-- Bottom -->
-      <rect x="18" y="108" width="184" height="16" rx="8" fill="#8B4513"/>
-      <!-- Parchment -->
-      <rect x="10" y="122" width="200" height="8" rx="4" fill="#E8D5B0"/>
-      <defs>
-        <linearGradient id="breadGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#D4782A"/>
-          <stop offset="100%" stop-color="#A0521A"/>
-        </linearGradient>
-      </defs>
-    </svg>
+    <!-- Baker caricature -->
+    <img class="bread-hero" src="baker.png" alt="Baker holding a fresh loaf of no-knead bread">
   </header>
   <!-- TIMELINE -->
   <div class="timeline">
